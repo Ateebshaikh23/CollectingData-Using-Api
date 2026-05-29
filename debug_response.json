@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "schema": "https://raw.githubusercontent.com/sdmx-twg/sdmx-json/master/data-message/tools/schemas/2.0.0/sdmx-json-data-schema.json",
+    "id": "IREF007395",
+    "prepared": "2026-05-25T12:38:19Z",
+    "test": true,
+    "contentLanguages": [
+      "en"
+    ],
+    "sender": {
+      "id": "Dissemination-Statsnz",
+      "name": "unknown",
+      "names": {
+        "en": "unknown"
+      }
+    }
+  },
+  "data": {
+    "dataSets": [
+      {
+        "structure": 0,
+        "action": "Information",
+        "links": [
+          {
+            "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=STATSNZ:CEN18_HAD_001(1.0)",
+            "rel": "DataStructure"
+          }
+        ],
+        "annotations": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "dimensionGroupAttributes": {
+          "~:~:~:~:~:~": [
+            10
+          ]
+        }
+      }
+    ],
+    "structures": [
+      {
+        "name": "Cigarette smoking behaviour and ethnic group (detailed total response - level 4) by age group and sex, for the census usually resident population count aged 15 years and over, 2006, 2013, and 2018 Censuses (RC, TA, DHB)",
+        "names": {
+          "en": "Cigarette smoking behaviour and ethnic group (detailed total response - level 4) by age group and sex, for the census usually resident population count aged 15 years and over, 2006, 2013, and 2018 Censuses (RC, TA, DHB)"
+        },
+        "dimensions": {
+          "dataSet": [],
+          "series": [],
+          "observation": [
+            {
+              "id": "AGE_CEN18_HAD_001",
+              "name": "Age group",
+              "names": {
+                "en": "Age group"
+              },
+              "keyPosition": 0,
+              "roles": [
+                "AGE_CEN18_HAD_001"
+              ],
+              "values": []
+            },
+            {
+              "id": "AREA_CEN18_HAD_001",
+              "name": "Area",
+              "names": {
+                "en": "Area"
+              },
+              "keyPosition": 1,
+              "roles": [
+                "AREA_CEN18_HAD_001"
+              ],
+              "values": []
+            },
+            {
+              "id": "CIG_CEN18_HAD_001",
+              "name": "Cigarette smoking behaviour",
+              "names": {
+                "en": "Cigarette smoking behaviour"
+              },
+              "keyPosition": 2,
+              "roles": [
+                "CIG_CEN18_HAD_001"
+              ],
+              "values": []
+            },
+            {
+              "id": "ETHNIC_CEN18_HAD_001",
+              "name": "Ethnic group",
+              "names": {
+                "en": "Ethnic group"
+              },
+              "keyPosition": 3,
+              "roles": [
+                "ETHNIC_CEN18_HAD_001"
+              ],
+              "values": []
+            },
+            {
+              "id": "SEX_CEN18_HAD_001",
+              "name": "Sex",
+              "names": {
+                "en": "Sex"
+              },
+              "keyPosition": 4,
+              "roles": [
+                "SEX_CEN18_HAD_001"
+              ],
+              "values": []
+            },
+            {
+              "id": "YEAR_CEN18_HAD_001",
+              "name": "Year",
+              "names": {
+                "en": "Year"
+              },
+              "keyPosition": 5,
+              "roles": [
+                "YEAR_CEN18_HAD_001"
+              ],
+              "values": []
+            }
+          ]
+        },
+        "attributes": {
+          "dataSet": [],
+          "dimensionGroup": [],
+          "series": [],
+          "observation": [
+            {
+              "id": "OBS_STATUS",
+              "name": "Observation status",
+              "names": {
+                "en": "Observation status"
+              },
+              "roles": [
+                "OBS_STATUS"
+              ],
+              "relationship": {
+                "observation": {}
+              },
+              "values": []
+            }
+          ]
+        },
+        "annotations": [
+          {
+            "type": "NonProductionDataflow",
+            "text": "true",
+            "texts": {
+              "en": "true"
+            }
+          },
+          {
+            "id": "@SDMX",
+            "title": "AREA_CEN18_HAD_001",
+            "type": "LAYOUT_ROW"
+          },
+          {
+            "id": "@SDMX",
+            "title": "CIG_CEN18_HAD_001,ETHNIC_CEN18_HAD_001,AGE_CEN18_HAD_001,SEX_CEN18_HAD_001,YEAR_CEN18_HAD_001",
+            "type": "LAYOUT_COLUMN"
+          },
+          {
+            "id": "@SDMX",
+            "title": "CIG_CEN18_HAD_001=9999,ETHNIC_CEN18_HAD_001=9999,AGE_CEN18_HAD_001=999999,SEX_CEN18_HAD_001=9,AREA_CEN18_HAD_001=9999+999999+DHB9999",
+            "type": "DEFAULT"
+          },
+          {
+            "id": "@SDMX",
+            "type": "HIER_CONTEXT",
+            "text": "AGE_CEN18_HAD_001:STATSNZ:HCL_AGE_CEN18_HAD_001(1.0).HIER_AGE_CEN18_HAD_001",
+            "texts": {
+              "en": "AGE_CEN18_HAD_001:STATSNZ:HCL_AGE_CEN18_HAD_001(1.0).HIER_AGE_CEN18_HAD_001"
+            }
+          },
+          {
+            "id": "@SDMX",
+            "type": "HIER_CONTEXT",
+            "text": "AREA_CEN18_HAD_001:STATSNZ:HCL_AREA_CEN18_HAD_001(1.0).HIER_AREA_CEN18_HAD_001",
+            "texts": {
+              "en": "AREA_CEN18_HAD_001:STATSNZ:HCL_AREA_CEN18_HAD_001(1.0).HIER_AREA_CEN18_HAD_001"
+            }
+          },
+          {
+            "id": "@SDMX",
+            "type": "HIER_CONTEXT",
+            "text": "CIG_CEN18_HAD_001:STATSNZ:HCL_CIG_CEN18_HAD_001(1.0).HIER_CIG_CEN18_HAD_001",
+            "texts": {
+              "en": "CIG_CEN18_HAD_001:STATSNZ:HCL_CIG_CEN18_HAD_001(1.0).HIER_CIG_CEN18_HAD_001"
+            }
+          },
+          {
+            "id": "@SDMX",
+            "type": "HIER_CONTEXT",
+            "text": "ETHNIC_CEN18_HAD_001:STATSNZ:HCL_ETHNIC_CEN18_HAD_001(1.0).HIER_ETHNIC_CEN18_HAD_001",
+            "texts": {
+              "en": "ETHNIC_CEN18_HAD_001:STATSNZ:HCL_ETHNIC_CEN18_HAD_001(1.0).HIER_ETHNIC_CEN18_HAD_001"
+            }
+          },
+          {
+            "id": "@SDMX",
+            "type": "HIER_CONTEXT",
+            "text": "SEX_CEN18_HAD_001:STATSNZ:HCL_SEX_CEN18_HAD_001(1.0).HIER_SEX_CEN18_HAD_001",
+            "texts": {
+              "en": "SEX_CEN18_HAD_001:STATSNZ:HCL_SEX_CEN18_HAD_001(1.0).HIER_SEX_CEN18_HAD_001"
+            }
+          },
+          {
+            "title": "urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataStructure=STATSNZ:MSD_CEN18_HAD_001(1.0)",
+            "type": "METADATA"
+          },
+          {
+            "type": "HAS_METADATA"
+          }
+        ],
+        "dataSets": [
+          0
+        ]
+      }
+    ]
+  },
+  "errors": []
+}

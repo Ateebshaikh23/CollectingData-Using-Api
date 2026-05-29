@@ -1,0 +1,5 @@
+API_URL = "https://api.data.stats.govt.nz/rest/data/STATSNZ,CEN18_HAD_001,1.0/999999.9999+999999+DHB9999.9999.9999.9.?dimensionAtObservation=AllDimensions"
+
+HEADERS = {
+    "Ocp-Apim-Subscription-Key": "4438fa53f1e54ed093d06793b131e0b8"
+}
